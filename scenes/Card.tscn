@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://cpw265xlg702d"]
+
+[ext_resource type="Script" uid="uid://b5k5odvgieb8x" path="res://scripts/Carta.gd" id="1_e7pc1"]
+
+[node name="Carta" type="TextureRect" unique_id=1639479586]
+custom_minimum_size = Vector2(100, 150)
+offset_right = 100.0
+offset_bottom = 150.0
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("1_e7pc1")
+
+[node name="NomeCarta" type="Label" parent="." unique_id=413343083]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
